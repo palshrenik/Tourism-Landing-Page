@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourist Place Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" id="logo" alt="logo" />
+      <div class="navbar">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Destination">Destination</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="">Refresh</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div id="Home">
+        <div class="front">
+          <video loop autoplay muted playsinline>
+            <source src="beachvideo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="fronttext">
+            <h1>Welcome to Our Tourism Website</h1>
+            <br /><br />
+            <h4>Discover amazing destinations and decide your next trip.</h4>
+            <br /><br />
+            <button>Search Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="gradient">
+        <div id="Destination">
+          <h2><u>Popular Destinations</u></h2>
+          <div class="des">
+            <div class="des-card">
+              <img
+                src="https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ="
+                alt="taj Mahal"
+              />
+              <h3>Taj Mahal</h3>
+              <br />
+              <p>
+                Marvel at the timeless beauty of the Taj Mahal,a symbol of love
+                and architectural brilliance, nestled on the banks of the Yamuna
+                River in Agra.
+              </p>
+            </div>
+
+            <div class="des-card">
+              <img
+                src="https://media.istockphoto.com/id/543179390/photo/golden-temple-the-main-sanctuary-of-sikhs-amritsar-india.jpg?s=612x612&w=0&k=20&c=s4bOWzg0e0ecBBPmuzIEShhrmMWFE16cnYlAZ7Nfdeg="
+                alt="golden temple"
+              />
+              <h3>Golden Temple</h3>
+              <br />
+              <p>
+                Experience spiritual serenity at the Golden Temple, the sacred
+                heart of Sikhism, known for its shimmering gold facade and warm
+                hospitality in Amritsar.
+              </p>
+            </div>
+
+            <div class="des-card">
+              <img
+                src="https://media.istockphoto.com/id/827065008/photo/holy-town-varanasi-and-the-river-ganges.jpg?s=612x612&w=0&k=20&c=WHGBF2zwPkVMpAma832RbHrov6VwKIMXuDR3N2WmfGg="
+                alt="varanasi"
+              />
+              <h3>Varanasi</h3>
+              <br />
+              <p>
+                Discover the spiritual essence of Varanasi, one of the world’s
+                oldest living cities, where ancient rituals meet the sacred
+                waters of the Ganges.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about" id="About">
+          <h2><u>🌍 About Us?</u></h2>
+          <p>
+            <h4>Discover Your Next Adventure with Our Tourist Place Search Website</h4>
+            <br>
+            Our platform is designed to make travel planning simple, smart, and
+            enjoyable for everyone. Whether you want to explore iconic
+            landmarks, uncover hidden gems, or plan the perfect getaway, we’re
+            your go-to companion for finding the best tourist spots worldwide.
+            <br><br>
+            With just a few clicks, you can search by country, region, or interest — from nature and history to adventure and culture. Each destination includes detailed insights, top attractions, best times to visit, travel tips, photos, and maps, helping you make informed choices with ease.
+            <br><br>
+            Whether it’s a family beach holiday, a solo backpacking trip, or a weekend escape with friends, our platform makes planning effortless. Plus, with personalized recommendations, user reviews, and reliable information, we help you travel smarter.
+            <br><br>
+            Designed for simplicity and accessibility, our site ensures a smooth experience for travelers of all ages and backgrounds.
+            <br><br>
+            ✨ Start your journey with us — because every great adventure begins with the right destination.
+          </p>
+        </div>
+
+        <div class="contact" id="Contact">
+          <h2><u>📞 Contact Us</u></h2>
+          <p>
+            We’d love to hear from you! Whether you have questions, feedback, or
+            need help planning your trip, feel free to reach out.
+          </p>
+
+          <div class="contact-content">
+            <!-- Contact Info -->
+            <div class="contact-info">
+              <p><b>📧 Email:</b> support@tourismhub.com</p>
+              <p><b>📞 Phone:</b> +91 98765 4XXX</p>
+              <p>
+                <b>📍 Address:</b> Tourism Hub, New Delhi,
+                India
+              </p>
+            </div>
+
+            <!-- Contact Form -->
+            <form
+              class="contact-form"
+              action="https://api.web3forms.com/submit"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="22c9740f-f876-4b71-a5f6-4e965a2affb1"
+              />
+
+              <label for="name">Full Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+
+              <label for="email">Email Address:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+
+              <label for="message">Your Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Tourist Landing Page| All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
