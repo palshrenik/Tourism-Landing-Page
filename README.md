@@ -39,7 +39,7 @@ travel-landing-page/
 git clone https://github.com/your-username/Tourism-Landing-Page.git
 ```
 
-2. Open the project folder.
+2. Open the index folder.
 
 3. Launch `index.html` in your preferred web browser.
 
