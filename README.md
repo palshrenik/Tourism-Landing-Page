@@ -36,7 +36,7 @@ travel-landing-page/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Tourism-Landing-Page.git
+git clone https://github.com/palshrenik/Tourism-Landing-Page.git
 ```
 
 2. Open the index folder.
